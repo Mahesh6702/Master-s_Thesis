@@ -49,21 +49,36 @@
    
    1.2.	Arduino Portenta H7
    
-   1.3.	Designing Sensor platform for Portenta.
+   1.3.	Designing Sensor platform for Portenta
    
 2.	Data Structure Creation for parameters
+
 3.	Integrating Ethernet UDP
+
 4.  Mqtt Integration
+
     4.1.	Installing and Configuring Mosquitto broker
+    
     4.2.	Integrating Mqtt client in MSP
+    
 5.	Python Paho API 
-    5.1.	 Paho API connecting to broker.
-    5.2.	Splitting message into parameters variables.
+
+    5.1.	 Paho API connecting to broker
+   
+    5.2.	Splitting message into parameters variables
+    
 6.	PostgreSQL Database Integration (Datastorage)
-    6.1.	Parameters Database creation using SQL.
-    6.2.	Python Psycopg2 Module connecting PostgreSQL.
-    6.3.	Mcu_Parameters Table creation using Python.
+
+    6.1.	Parameters Database creation using SQL
+    
+    6.2.	Python Psycopg2 Module connecting PostgreSQL
+    
+    6.3.	Mcu_Parameters Table creation using Python
+    
     6.4.	Adding parameters values into Table
+    
 7.	Connecting Grafana with Database (Data visualization)
+
     7.1.	Parameters Dashboard Creation 
+    
     7.2.	Connecting with Parameters Database
